@@ -1,0 +1,72 @@
+feature,group,type,description
+town,core,categorical,Canonical town category
+flat_type,core,categorical,Normalized flat type
+flat_model,core,categorical,Canonical flat model
+floor_area_sqm,core,numeric,Floor area in square metres
+lease_commence_date,core,numeric,Lease commencement year
+approval_year,core,numeric,Approval year
+approval_month,core,numeric,Approval calendar month
+month_index,core,numeric,Months since January 2021
+month_sin,core,numeric,Sine of calendar month
+month_cos,core,numeric,Cosine of calendar month
+lease_age,core,numeric,Approval year minus lease commencement year
+lease_age_invalid,core,numeric,Indicator of negative lease age
+log_floor_area,core,numeric,log(1 + floor area)
+flat_room_number,core,numeric,n in n-room; missing for executive
+street,building,categorical,Canonical street
+building_id,building,categorical,Town|block|street joint identifier
+postal_sector,building,categorical,First two postal-code digits
+postal_sector_imputed,building,numeric,Indicator of postal sector imputed from the unique known sector within the same town and street
+latitude,building,numeric,Block latitude
+longitude,building,numeric,Block longitude
+max_floor,building,numeric,"Maximum floor of block, not unit floor"
+year_completed,building,numeric,Block completion year
+building_age,building,numeric,Approval year minus completion year
+building_age_invalid,building,numeric,Indicator of negative building age
+subzone,building,categorical,Subzone category
+planning_area,building,categorical,Planning-area category
+region,building,categorical,Region category
+block_metadata_missing,building,numeric,Indicator of an unmatched block lookup
+dist_mrt_open_snapshot_km,amenities,numeric,Distance in km to nearest named snapshot location
+count_mrt_open_snapshot_500m,amenities,numeric,Number of unique named snapshot locations within the stated radius
+count_mrt_open_snapshot_1000m,amenities,numeric,Number of unique named snapshot locations within the stated radius
+dist_mrt_planned_snapshot_km,amenities,numeric,Distance in km to nearest named snapshot location
+count_mrt_planned_snapshot_500m,amenities,numeric,Number of unique named snapshot locations within the stated radius
+count_mrt_planned_snapshot_1000m,amenities,numeric,Number of unique named snapshot locations within the stated radius
+dist_mall_snapshot_km,amenities,numeric,Distance in km to nearest named snapshot location
+count_mall_snapshot_500m,amenities,numeric,Number of unique named snapshot locations within the stated radius
+count_mall_snapshot_1000m,amenities,numeric,Number of unique named snapshot locations within the stated radius
+dist_primary_school_snapshot_km,amenities,numeric,Distance in km to nearest named snapshot location
+count_primary_school_snapshot_500m,amenities,numeric,Number of unique named snapshot locations within the stated radius
+count_primary_school_snapshot_1000m,amenities,numeric,Number of unique named snapshot locations within the stated radius
+dist_raffles_place_mrt_km,amenities,numeric,Haversine distance to the named MRT reference in the provided file
+macro_coe_bid_pressure_a,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_coe_bid_pressure_b,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_coe_bid_pressure_c,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_coe_bid_pressure_e,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_coe_quota_premium_a,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_coe_quota_premium_b,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_coe_quota_premium_c,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_coe_quota_premium_e,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_coe_quota_premium_a_change_1m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_coe_quota_premium_b_change_1m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_coe_quota_premium_c_change_1m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_coe_quota_premium_e_change_1m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_d05_si_close,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_d05_si_return_1m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_d05_si_return_3m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_o39_si_close,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_o39_si_return_1m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_o39_si_return_3m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_u11_si_close,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_u11_si_return_1m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_u11_si_return_3m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_c6l_si_close,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_c6l_si_return_1m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_c6l_si_return_3m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_z74_si_close,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_z74_si_return_1m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_z74_si_return_3m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_c38u_si_close,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_c38u_si_return_1m,macro,numeric,Monthly external proxy; source month aligned inside each training fold
+macro_stock_c38u_si_return_3m,macro,numeric,Monthly external proxy; source month aligned inside each training fold

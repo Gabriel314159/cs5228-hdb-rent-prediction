@@ -1,0 +1,2 @@
+evaluation,quick_mode,model,kind,feature_set,RMSE,MAE,RMSLE,R2,input_features,fit_predict_seconds
+independent_temporal_holdout,False,ridge_optuna,ridge,macro,527.440887513098,386.07385898347763,0.20344131333247553,0.37091591664545553,71,4.374523500009673

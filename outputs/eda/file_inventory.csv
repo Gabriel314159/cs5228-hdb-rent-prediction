@@ -1,0 +1,9 @@
+file,rows,columns,missing_cells,exact_duplicate_rows
+train.csv,150000,11,0,425
+test.csv,50000,10,0,5508
+sg-hdb-block.csv,9464,11,0,0
+sg-mrt-stations.csv,243,8,0,0
+sg-shopping-malls.csv,113,3,0,0
+sg-schools.csv,337,14,0,0
+sg-coe-prices.csv,539,8,0,0
+sg-stock-prices.csv,91642,9,510,0

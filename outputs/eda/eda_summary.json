@@ -1,0 +1,23 @@
+{
+  "train_rows": 150000,
+  "test_rows": 50000,
+  "constant_columns": [
+    "FURNISHED",
+    "FEE"
+  ],
+  "train_first_month": "2021-01",
+  "train_last_month": "2025-03",
+  "test_first_month": "2025-03",
+  "test_last_month": "2026-07",
+  "checks": {
+    "nonpositive_rent": 0,
+    "nonpositive_area_train": 0,
+    "nonpositive_area_test": 0,
+    "invalid_month_train": 0,
+    "lease_year_after_approval_train": 1,
+    "exact_duplicates_train": 425,
+    "identical_predictors_train": 15547,
+    "identical_predictors_test": 5508
+  },
+  "duplicate_policy": "retain"
+}

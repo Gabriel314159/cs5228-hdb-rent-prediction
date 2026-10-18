@@ -1,0 +1,27 @@
+# CS5228 HDB rental prediction
+# Python 3.12.x; Windows x86-64
+# Direct dependencies are pinned. Transitive dependencies are resolved by pip.
+
+# Data processing and scientific computing
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+
+# Exploratory analysis and plots
+matplotlib==3.10.3
+seaborn==0.13.2
+
+# Baselines, preprocessing, validation, and regression
+scikit-learn==1.6.1
+xgboost==3.0.2
+lightgbm==4.6.0
+catboost==1.2.10
+
+# Tuning and interpretation
+optuna==4.3.0
+shap==0.48.0
+
+# VS Code notebook kernel and utilities
+ipykernel==6.29.5
+joblib==1.5.1
+tqdm==4.67.1

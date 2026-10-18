@@ -1,0 +1,60 @@
+{
+  "ridge": {
+    "name": "ridge_optuna",
+    "kind": "ridge",
+    "feature_set": "macro",
+    "params": {
+      "alpha": 4.185822729546974
+    }
+  },
+  "random_forest": {
+    "name": "random_forest_optuna",
+    "kind": "random_forest",
+    "feature_set": "macro",
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 24,
+      "min_samples_leaf": 19,
+      "max_features": 0.5194695358956554
+    }
+  },
+  "xgboost": {
+    "name": "xgboost_optuna",
+    "kind": "xgboost",
+    "feature_set": "macro",
+    "params": {
+      "n_estimators": 600,
+      "learning_rate": 0.14125579777291353,
+      "subsample": 0.996945066184135,
+      "colsample_bytree": 0.996951716289459,
+      "reg_lambda": 0.10508001975005496,
+      "max_depth": 3,
+      "min_child_weight": 24.770307878755364
+    }
+  },
+  "lightgbm": {
+    "name": "lightgbm_optuna",
+    "kind": "lightgbm",
+    "feature_set": "macro",
+    "params": {
+      "n_estimators": 300,
+      "learning_rate": 0.07173990592988709,
+      "subsample": 0.7485880144689303,
+      "colsample_bytree": 0.7667698433310003,
+      "reg_lambda": 2.9073850649959905,
+      "num_leaves": 15,
+      "min_child_samples": 30
+    }
+  },
+  "catboost": {
+    "name": "catboost_optuna",
+    "kind": "catboost",
+    "feature_set": "macro",
+    "params": {
+      "iterations": 800,
+      "learning_rate": 0.06404318684890074,
+      "depth": 5,
+      "l2_leaf_reg": 10.401153464567013
+    }
+  }
+}

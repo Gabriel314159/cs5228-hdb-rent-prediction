@@ -1,0 +1,16 @@
+model,kind,feature_set,RMSE,MAE,RMSLE,R2,input_features,fit_predict_seconds,groups,parameter_source
+lightgbm__combo__core__building__amenities__macro,lightgbm,combo__core__building__amenities__macro,651.4368244024422,541.6331625975595,0.23618792480433692,0.24732658018042342,71,1.6639122999913525,core + building + amenities + macro,lightgbm_optuna
+lightgbm__combo__core__amenities__macro,lightgbm,combo__core__amenities__macro,658.5303846801335,547.3962164206152,0.23785252109129032,0.23084546258470118,57,1.139295500004664,core + amenities + macro,lightgbm_optuna
+lightgbm__combo__core__building__macro,lightgbm,combo__core__building__macro,660.3242940687267,549.165399542397,0.23830300998776172,0.22664923130067682,58,1.5129138999909628,core + building + macro,lightgbm_optuna
+lightgbm__combo__core__macro,lightgbm,combo__core__macro,661.3945737227548,546.5399668399534,0.23825991145055656,0.22414024477300587,44,0.9010919000138529,core + macro,lightgbm_optuna
+lightgbm__combo__core__building__amenities,lightgbm,combo__core__building__amenities,667.0746350642476,554.3197335787038,0.24005669780539088,0.21075684383369775,41,1.2722302000038326,core + building + amenities,lightgbm_optuna
+lightgbm__combo__core__amenities,lightgbm,combo__core__amenities,678.4190669193372,563.1786859290473,0.2427515196602081,0.18368446678555583,27,0.7286817999847699,core + amenities,lightgbm_optuna
+lightgbm__combo__building__amenities__macro,lightgbm,combo__building__amenities__macro,680.600379197557,556.377772603166,0.2468701248260013,0.1784266495581437,57,1.3353626999887638,building + amenities + macro,lightgbm_optuna
+lightgbm__combo__building__macro,lightgbm,combo__building__macro,683.6899727333115,558.9096653882685,0.2478676465400593,0.1709506352187743,44,1.1759038000018336,building + macro,lightgbm_optuna
+lightgbm__combo__core__building,lightgbm,combo__core__building,690.3437115570442,575.2165486222452,0.2464406809320139,0.1547353310629489,28,1.106918699981179,core + building,lightgbm_optuna
+lightgbm__combo__core,lightgbm,combo__core,697.4275239915502,578.8547294639143,0.24796733457134956,0.13729932926830368,14,0.48672579997219145,core,lightgbm_optuna
+lightgbm__combo__amenities__macro,lightgbm,combo__amenities__macro,713.7428424004546,580.7293186837474,0.25712954813263,0.09646391442286895,43,0.6775670000060927,amenities + macro,lightgbm_optuna
+lightgbm__combo__macro,lightgbm,combo__macro,776.7284274212428,622.3045529656683,0.2748696398179197,-0.07004088125884267,30,0.46290050001698546,macro,lightgbm_optuna
+lightgbm__combo__building__amenities,lightgbm,combo__building__amenities,880.2612343950987,735.5905732121246,0.3069534489028792,-0.37431131780759075,27,0.9341796000080649,building + amenities,lightgbm_optuna
+lightgbm__combo__building,lightgbm,combo__building,880.9112767597302,736.0758810685397,0.30720192383940087,-0.3763418296641523,14,0.738639899995178,building,lightgbm_optuna
+lightgbm__combo__amenities,lightgbm,combo__amenities,997.8769725111849,838.2528942246133,0.3490188344845911,-0.7661027694753062,13,0.34737809997750446,amenities,lightgbm_optuna
