@@ -1,0 +1,16 @@
+model,kind,feature_set,RMSE,MAE,RMSLE,R2,input_features,fit_predict_seconds,groups,parameter_source
+ridge__combo__core__building__amenities__macro,ridge,combo__core__building__amenities__macro,629.5823351797131,512.5863316163752,0.2334255156883589,0.29698103936615927,71,2.731739299983019,core + building + amenities + macro,ridge_optuna
+ridge__combo__core__building__amenities,ridge,combo__core__building__amenities,630.1291848831165,510.6705300690716,0.23377390152661015,0.2957592367465274,41,1.6404387999791652,core + building + amenities,ridge_optuna
+ridge__combo__core__building,ridge,combo__core__building,630.2445258997715,510.7339894633086,0.2337920281260057,0.29550139984049384,28,1.2144900000130292,core + building,ridge_optuna
+ridge__combo__core__building__macro,ridge,combo__core__building__macro,630.3269996853915,513.1850678373324,0.23355366910370762,0.2953170064319418,58,2.2535465999972075,core + building + macro,ridge_optuna
+ridge__combo__core__amenities,ridge,combo__core__amenities,638.2205109573692,516.5353836422216,0.2361067559111699,0.2775571708454021,27,0.6101938000065275,core + amenities,ridge_optuna
+ridge__combo__core__amenities__macro,ridge,combo__core__amenities__macro,638.8181274740259,519.6250973664571,0.23584475707863037,0.27620357628802206,57,1.4155273999786004,core + amenities + macro,ridge_optuna
+ridge__combo__core,ridge,combo__core,641.8947353073537,518.6418903050062,0.23715223880168107,0.26921504549865327,14,0.36373949999688193,core,ridge_optuna
+ridge__combo__core__macro,ridge,combo__core__macro,642.550835216421,521.6316668019311,0.23690300675121181,0.26772036746155614,44,0.959519600000931,core + macro,ridge_optuna
+ridge__combo__building__macro,ridge,combo__building__macro,715.4457898231416,560.6554778217244,0.27206685401514746,0.09214720552159172,44,1.7181288999854587,building + macro,ridge_optuna
+ridge__combo__building__amenities__macro,ridge,combo__building__amenities__macro,715.5129813871991,560.584495182475,0.2721038288554347,0.09197667432414047,57,2.1927279999945313,building + amenities + macro,ridge_optuna
+ridge__combo__amenities__macro,ridge,combo__amenities__macro,787.0326695321677,624.7903066979534,0.29201131871743885,-0.09861997342909046,43,0.35268270000233315,amenities + macro,ridge_optuna
+ridge__combo__macro,ridge,combo__macro,795.2192785367129,629.0551372963812,0.2940100578205236,-0.12159424010779052,30,0.2400539999944158,macro,ridge_optuna
+ridge__combo__building,ridge,combo__building,886.9256751934356,742.7480347680477,0.3091521046616826,-0.39519986185552747,14,0.5926681999990251,building,ridge_optuna
+ridge__combo__building__amenities,ridge,combo__building__amenities,888.8177570513466,744.5515101929333,0.3099000360684552,-0.40115898154908347,27,1.0426061000034679,building + amenities,ridge_optuna
+ridge__combo__amenities,ridge,combo__amenities,1038.4945546153954,862.0048086870843,0.3619166021031013,-0.9128037623319978,13,0.10609439999097958,amenities,ridge_optuna

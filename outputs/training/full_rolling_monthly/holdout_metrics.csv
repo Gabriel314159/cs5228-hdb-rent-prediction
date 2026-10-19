@@ -1,0 +1,2 @@
+evaluation,quick_mode,model,kind,feature_set,RMSE,MAE,RMSLE,R2,input_features,fit_predict_seconds
+independent_temporal_holdout,False,ridge_group_combo,ridge,combo__core__building__amenities__macro,768.0866749437473,609.2352971530481,0.2679560277569932,-0.3340790734726726,71,4.074413599999389

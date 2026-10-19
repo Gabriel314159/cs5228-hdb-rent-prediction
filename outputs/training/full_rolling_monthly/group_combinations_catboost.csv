@@ -1,0 +1,16 @@
+model,kind,feature_set,RMSE,MAE,RMSLE,R2,input_features,fit_predict_seconds,groups,parameter_source
+catboost__combo__core__building,catboost,combo__core__building,631.6064749539445,523.752840143636,0.2317260213205163,0.2924532879226748,28,23.43998160000774,core + building,catboost_optuna
+catboost__combo__core__building__amenities,catboost,combo__core__building__amenities,632.0847997326628,524.4797848492444,0.23188520591152184,0.29138121127497185,41,24.07868820001022,core + building + amenities,catboost_optuna
+catboost__combo__core__amenities,catboost,combo__core__amenities,645.6180586968836,536.1949248607283,0.2350725067260948,0.2607125916764791,27,17.346956699999282,core + amenities,catboost_optuna
+catboost__combo__core__building__macro,catboost,combo__core__building__macro,646.0371675292747,538.6698085974542,0.2348997469396559,0.2597524498506233,58,27.41076699999394,core + building + macro,catboost_optuna
+catboost__combo__core__building__amenities__macro,catboost,combo__core__building__amenities__macro,652.2109506108876,544.5512865745652,0.23644993070450532,0.24553665858113038,71,25.177961500012316,core + building + amenities + macro,catboost_optuna
+catboost__combo__core,catboost,combo__core,655.2421995472769,543.8776147222457,0.23763125108282376,0.23850739693026723,14,16.89443869999377,core,catboost_optuna
+catboost__combo__core__macro,catboost,combo__core__macro,655.8044292030295,545.6937161229317,0.23786716669676639,0.23720004095059888,44,17.68361219999497,core + macro,catboost_optuna
+catboost__combo__core__amenities__macro,catboost,combo__core__amenities__macro,659.5608455362911,550.326018994514,0.23811971582197566,0.22843645071666718,57,20.323908099991968,core + amenities + macro,catboost_optuna
+catboost__combo__building__amenities__macro,catboost,combo__building__amenities__macro,673.9562011611783,553.9012106005473,0.2439975201445501,0.19438913012968284,57,22.818627200002084,building + amenities + macro,catboost_optuna
+catboost__combo__building__macro,catboost,combo__building__macro,676.0849889402804,555.8454208815057,0.24429858688053263,0.18929181648023885,44,21.649606899998616,building + macro,catboost_optuna
+catboost__combo__amenities__macro,catboost,combo__amenities__macro,735.1870423521389,601.0960006969472,0.26097271595878146,0.04135533854015405,43,2.2791297000076156,amenities + macro,catboost_optuna
+catboost__combo__macro,catboost,combo__macro,857.3332126488918,693.5155677661494,0.2959550403848533,-0.30365077407231666,30,2.0052193999872543,macro,catboost_optuna
+catboost__combo__building,catboost,combo__building,872.1073626870703,730.655086798964,0.30497025127165794,-0.3489687098055958,14,20.237800299975788,building,catboost_optuna
+catboost__combo__building__amenities,catboost,combo__building__amenities,873.0710919944668,731.2598664834559,0.30531139687124204,-0.3519517347089429,27,20.479720899980748,building + amenities,catboost_optuna
+catboost__combo__amenities,catboost,combo__amenities,997.4943007427281,837.9813406062066,0.3491663909153082,-0.7647484781116003,13,1.5197295999969356,amenities,catboost_optuna

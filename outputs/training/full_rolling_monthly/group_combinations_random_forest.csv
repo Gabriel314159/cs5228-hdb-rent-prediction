@@ -1,0 +1,16 @@
+model,kind,feature_set,RMSE,MAE,RMSLE,R2,input_features,fit_predict_seconds,groups,parameter_source
+random_forest__combo__core__building__amenities__macro,random_forest,combo__core__building__amenities__macro,687.9721737909964,575.0361427162651,0.24540604895442786,0.1605328313206893,69,199.5492105000012,core + building + amenities + macro,random_forest_optuna
+random_forest__combo__core__amenities__macro,random_forest,combo__core__amenities__macro,689.3810517157259,575.597718221429,0.24579485368356532,0.15709107067181705,57,156.03097640001215,core + amenities + macro,random_forest_optuna
+random_forest__combo__core__building__macro,random_forest,combo__core__building__macro,692.3193214757349,578.5733191302022,0.24655950576220695,0.1498904901648368,56,154.18474629998673,core + building + macro,random_forest_optuna
+random_forest__combo__core__building__amenities,random_forest,combo__core__building__amenities,699.5151724933138,582.7966058494732,0.24867222355896895,0.13212685975461702,39,108.89274159999331,core + building + amenities,random_forest_optuna
+random_forest__combo__core__building,random_forest,combo__core__building,700.7394144979236,583.3366809188832,0.24892056137256882,0.12908642106399248,26,69.2412323000026,core + building,random_forest_optuna
+random_forest__combo__core__macro,random_forest,combo__core__macro,703.8230449141621,583.729849501343,0.2489432830204464,0.1214045794693267,44,83.07677810001769,core + macro,random_forest_optuna
+random_forest__combo__core__amenities,random_forest,combo__core__amenities,705.1010977770486,586.6547952033885,0.2501648372757264,0.11821084799261417,27,72.51514249999309,core + amenities,random_forest_optuna
+random_forest__combo__core,random_forest,combo__core,713.1385040029423,589.5527873545713,0.25179508661800637,0.09799334588254904,14,27.384209200012265,core,random_forest_optuna
+random_forest__combo__building__amenities__macro,random_forest,combo__building__amenities__macro,729.4800609883096,599.0823638894876,0.25899482967127196,0.05618077035521629,55,148.87986079999246,building + amenities + macro,random_forest_optuna
+random_forest__combo__building__macro,random_forest,combo__building__macro,730.8996414824894,600.0395798354256,0.25957437132115335,0.05250381987095043,42,108.84940919998917,building + macro,random_forest_optuna
+random_forest__combo__amenities__macro,random_forest,combo__amenities__macro,763.6762947889283,622.6650884614534,0.2687838475524047,-0.034381131624218186,43,11.673712799994973,amenities + macro,random_forest_optuna
+random_forest__combo__macro,random_forest,combo__macro,805.6382649149589,648.1676059743227,0.2815812925699661,-0.1511770979855711,30,1.4564362000091933,macro,random_forest_optuna
+random_forest__combo__building,random_forest,combo__building,882.600343695244,737.8344650600548,0.30742151547388025,-0.3816249092884527,12,23.171174899995094,building,random_forest_optuna
+random_forest__combo__building__amenities,random_forest,combo__building__amenities,892.8170519776938,748.1115915514273,0.31119928429183613,-0.41379656660135566,25,54.84022620000178,building + amenities,random_forest_optuna
+random_forest__combo__amenities,random_forest,combo__amenities,980.1073543715598,828.248880570559,0.34429652326778715,-0.7037633273870803,13,4.493646399991121,amenities,random_forest_optuna

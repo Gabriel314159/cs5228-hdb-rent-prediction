@@ -1,0 +1,4 @@
+split,rows_used,first_month,last_month
+fit,70183,2021-01,2022-12
+validation,35654,2023-01,2023-12
+independent_holdout,44163,2024-01,2025-03

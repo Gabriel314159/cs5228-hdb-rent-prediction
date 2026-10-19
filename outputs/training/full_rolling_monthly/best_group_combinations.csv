@@ -1,0 +1,6 @@
+model,kind,feature_set,RMSE,MAE,RMSLE,R2,input_features,fit_predict_seconds,groups,parameter_source
+ridge_group_combo,ridge,combo__core__building__amenities__macro,629.5823351797131,512.5863316163752,0.2334255156883589,0.29698103936615927,71,2.753430400014622,core + building + amenities + macro,ridge_optuna
+catboost_group_combo,catboost,combo__core__building,631.6064749539445,523.752840143636,0.2317260213205163,0.2924532879226748,28,23.4750117000076,core + building,catboost_optuna
+xgboost_group_combo,xgboost,combo__core__building__amenities,637.6675869667969,527.6020887711583,0.2334378853727567,0.27880840903140236,41,1.566335200011963,core + building + amenities,xgboost_optuna
+lightgbm_group_combo,lightgbm,combo__core__building__amenities__macro,652.8416919556912,542.6530434188139,0.23655902007334811,0.24407669742798943,71,1.5765367000130937,core + building + amenities + macro,lightgbm_optuna
+random_forest_group_combo,random_forest,combo__core__building__amenities__macro,687.9721737909964,575.0361427162651,0.24540604895442786,0.1605328313206893,69,199.70012490000227,core + building + amenities + macro,random_forest_optuna

@@ -1,0 +1,76 @@
+model,kind,feature_set,RMSE,MAE,RMSLE,R2,input_features,fit_predict_seconds,groups,parameter_source
+catboost__combo__core__building,catboost,combo__core__building,631.6064749539445,523.752840143636,0.2317260213205163,0.2924532879226748,28,23.43998160000774,core + building,catboost_optuna
+catboost__combo__core__building__amenities,catboost,combo__core__building__amenities,632.0847997326628,524.4797848492444,0.23188520591152184,0.29138121127497185,41,24.07868820001022,core + building + amenities,catboost_optuna
+catboost__combo__core__amenities,catboost,combo__core__amenities,645.6180586968836,536.1949248607283,0.2350725067260948,0.2607125916764791,27,17.346956699999282,core + amenities,catboost_optuna
+catboost__combo__core__building__macro,catboost,combo__core__building__macro,646.0371675292747,538.6698085974542,0.2348997469396559,0.2597524498506233,58,27.41076699999394,core + building + macro,catboost_optuna
+catboost__combo__core__building__amenities__macro,catboost,combo__core__building__amenities__macro,652.2109506108876,544.5512865745652,0.23644993070450532,0.24553665858113038,71,25.177961500012316,core + building + amenities + macro,catboost_optuna
+catboost__combo__core,catboost,combo__core,655.2421995472769,543.8776147222457,0.23763125108282376,0.23850739693026723,14,16.89443869999377,core,catboost_optuna
+catboost__combo__core__macro,catboost,combo__core__macro,655.8044292030295,545.6937161229317,0.23786716669676639,0.23720004095059888,44,17.68361219999497,core + macro,catboost_optuna
+catboost__combo__core__amenities__macro,catboost,combo__core__amenities__macro,659.5608455362911,550.326018994514,0.23811971582197566,0.22843645071666718,57,20.323908099991968,core + amenities + macro,catboost_optuna
+catboost__combo__building__amenities__macro,catboost,combo__building__amenities__macro,673.9562011611783,553.9012106005473,0.2439975201445501,0.19438913012968284,57,22.818627200002084,building + amenities + macro,catboost_optuna
+catboost__combo__building__macro,catboost,combo__building__macro,676.0849889402804,555.8454208815057,0.24429858688053263,0.18929181648023885,44,21.649606899998616,building + macro,catboost_optuna
+catboost__combo__amenities__macro,catboost,combo__amenities__macro,735.1870423521389,601.0960006969472,0.26097271595878146,0.04135533854015405,43,2.2791297000076156,amenities + macro,catboost_optuna
+catboost__combo__macro,catboost,combo__macro,857.3332126488918,693.5155677661494,0.2959550403848533,-0.30365077407231666,30,2.0052193999872543,macro,catboost_optuna
+catboost__combo__building,catboost,combo__building,872.1073626870703,730.655086798964,0.30497025127165794,-0.3489687098055958,14,20.237800299975788,building,catboost_optuna
+catboost__combo__building__amenities,catboost,combo__building__amenities,873.0710919944668,731.2598664834559,0.30531139687124204,-0.3519517347089429,27,20.479720899980748,building + amenities,catboost_optuna
+catboost__combo__amenities,catboost,combo__amenities,997.4943007427281,837.9813406062066,0.3491663909153082,-0.7647484781116003,13,1.5197295999969356,amenities,catboost_optuna
+lightgbm__combo__core__building__amenities__macro,lightgbm,combo__core__building__amenities__macro,652.8416919556912,542.6530434188139,0.23655902007334811,0.24407669742798943,71,1.5358742999960668,core + building + amenities + macro,lightgbm_optuna
+lightgbm__combo__core__amenities__macro,lightgbm,combo__core__amenities__macro,655.4891298707432,544.3672628370009,0.23721381417056372,0.23793334646201592,57,1.0260757000069134,core + amenities + macro,lightgbm_optuna
+lightgbm__combo__core__building__macro,lightgbm,combo__core__building__macro,658.1477580887334,547.0570547573628,0.23781602559717613,0.23173900823524474,58,1.371131099993363,core + building + macro,lightgbm_optuna
+lightgbm__combo__core__macro,lightgbm,combo__core__macro,661.3548129032346,547.0064352231722,0.23829038539414193,0.22423352613231085,44,0.8063249999831896,core + macro,lightgbm_optuna
+lightgbm__combo__core__building__amenities,lightgbm,combo__core__building__amenities,667.0746350642476,554.3197335787038,0.24005669780539088,0.21075684383369775,41,1.1527397999889217,core + building + amenities,lightgbm_optuna
+lightgbm__combo__building__amenities__macro,lightgbm,combo__building__amenities__macro,675.5491094150977,551.3282270641837,0.24601532938446785,0.1905764766917204,57,1.240463499998441,building + amenities + macro,lightgbm_optuna
+lightgbm__combo__core__amenities,lightgbm,combo__core__amenities,678.4190669193372,563.1786859290473,0.2427515196602081,0.18368446678555583,27,0.6429433999874163,core + amenities,lightgbm_optuna
+lightgbm__combo__building__macro,lightgbm,combo__building__macro,678.9310705502616,553.863239215023,0.2469500582751219,0.18245185333614167,44,1.1054753999924287,building + macro,lightgbm_optuna
+lightgbm__combo__core__building,lightgbm,combo__core__building,690.3437115570442,575.2165486222452,0.2464406809320139,0.1547353310629489,28,0.9657403000164777,core + building,lightgbm_optuna
+lightgbm__combo__core,lightgbm,combo__core,697.4275239915502,578.8547294639143,0.24796733457134956,0.13729932926830368,14,0.46986360001028515,core,lightgbm_optuna
+lightgbm__combo__amenities__macro,lightgbm,combo__amenities__macro,711.6673043928689,578.4859289000328,0.2567568899830465,0.10171117349052872,43,0.6156132000032812,amenities + macro,lightgbm_optuna
+lightgbm__combo__macro,lightgbm,combo__macro,787.7844282377864,631.8775432054857,0.27725714429250636,-0.1007197377764435,30,0.44326729999738745,macro,lightgbm_optuna
+lightgbm__combo__building__amenities,lightgbm,combo__building__amenities,880.2612343950987,735.5905732121246,0.3069534489028792,-0.37431131780759075,27,0.919625399983488,building + amenities,lightgbm_optuna
+lightgbm__combo__building,lightgbm,combo__building,880.9112767597302,736.0758810685397,0.30720192383940087,-0.3763418296641523,14,0.6951323999965098,building,lightgbm_optuna
+lightgbm__combo__amenities,lightgbm,combo__amenities,997.8769725111849,838.2528942246133,0.3490188344845911,-0.7661027694753062,13,0.3087799999921117,amenities,lightgbm_optuna
+random_forest__combo__core__building__amenities__macro,random_forest,combo__core__building__amenities__macro,687.9721737909964,575.0361427162651,0.24540604895442786,0.1605328313206893,69,199.5492105000012,core + building + amenities + macro,random_forest_optuna
+random_forest__combo__core__amenities__macro,random_forest,combo__core__amenities__macro,689.3810517157259,575.597718221429,0.24579485368356532,0.15709107067181705,57,156.03097640001215,core + amenities + macro,random_forest_optuna
+random_forest__combo__core__building__macro,random_forest,combo__core__building__macro,692.3193214757349,578.5733191302022,0.24655950576220695,0.1498904901648368,56,154.18474629998673,core + building + macro,random_forest_optuna
+random_forest__combo__core__building__amenities,random_forest,combo__core__building__amenities,699.5151724933138,582.7966058494732,0.24867222355896895,0.13212685975461702,39,108.89274159999331,core + building + amenities,random_forest_optuna
+random_forest__combo__core__building,random_forest,combo__core__building,700.7394144979236,583.3366809188832,0.24892056137256882,0.12908642106399248,26,69.2412323000026,core + building,random_forest_optuna
+random_forest__combo__core__macro,random_forest,combo__core__macro,703.8230449141621,583.729849501343,0.2489432830204464,0.1214045794693267,44,83.07677810001769,core + macro,random_forest_optuna
+random_forest__combo__core__amenities,random_forest,combo__core__amenities,705.1010977770486,586.6547952033885,0.2501648372757264,0.11821084799261417,27,72.51514249999309,core + amenities,random_forest_optuna
+random_forest__combo__core,random_forest,combo__core,713.1385040029423,589.5527873545713,0.25179508661800637,0.09799334588254904,14,27.384209200012265,core,random_forest_optuna
+random_forest__combo__building__amenities__macro,random_forest,combo__building__amenities__macro,729.4800609883096,599.0823638894876,0.25899482967127196,0.05618077035521629,55,148.87986079999246,building + amenities + macro,random_forest_optuna
+random_forest__combo__building__macro,random_forest,combo__building__macro,730.8996414824894,600.0395798354256,0.25957437132115335,0.05250381987095043,42,108.84940919998917,building + macro,random_forest_optuna
+random_forest__combo__amenities__macro,random_forest,combo__amenities__macro,763.6762947889283,622.6650884614534,0.2687838475524047,-0.034381131624218186,43,11.673712799994973,amenities + macro,random_forest_optuna
+random_forest__combo__macro,random_forest,combo__macro,805.6382649149589,648.1676059743227,0.2815812925699661,-0.1511770979855711,30,1.4564362000091933,macro,random_forest_optuna
+random_forest__combo__building,random_forest,combo__building,882.600343695244,737.8344650600548,0.30742151547388025,-0.3816249092884527,12,23.171174899995094,building,random_forest_optuna
+random_forest__combo__building__amenities,random_forest,combo__building__amenities,892.8170519776938,748.1115915514273,0.31119928429183613,-0.41379656660135566,25,54.84022620000178,building + amenities,random_forest_optuna
+random_forest__combo__amenities,random_forest,combo__amenities,980.1073543715598,828.248880570559,0.34429652326778715,-0.7037633273870803,13,4.493646399991121,amenities,random_forest_optuna
+ridge__combo__core__building__amenities__macro,ridge,combo__core__building__amenities__macro,629.5823351797131,512.5863316163752,0.2334255156883589,0.29698103936615927,71,2.731739299983019,core + building + amenities + macro,ridge_optuna
+ridge__combo__core__building__amenities,ridge,combo__core__building__amenities,630.1291848831165,510.6705300690716,0.23377390152661015,0.2957592367465274,41,1.6404387999791652,core + building + amenities,ridge_optuna
+ridge__combo__core__building,ridge,combo__core__building,630.2445258997715,510.7339894633086,0.2337920281260057,0.29550139984049384,28,1.2144900000130292,core + building,ridge_optuna
+ridge__combo__core__building__macro,ridge,combo__core__building__macro,630.3269996853915,513.1850678373324,0.23355366910370762,0.2953170064319418,58,2.2535465999972075,core + building + macro,ridge_optuna
+ridge__combo__core__amenities,ridge,combo__core__amenities,638.2205109573692,516.5353836422216,0.2361067559111699,0.2775571708454021,27,0.6101938000065275,core + amenities,ridge_optuna
+ridge__combo__core__amenities__macro,ridge,combo__core__amenities__macro,638.8181274740259,519.6250973664571,0.23584475707863037,0.27620357628802206,57,1.4155273999786004,core + amenities + macro,ridge_optuna
+ridge__combo__core,ridge,combo__core,641.8947353073537,518.6418903050062,0.23715223880168107,0.26921504549865327,14,0.36373949999688193,core,ridge_optuna
+ridge__combo__core__macro,ridge,combo__core__macro,642.550835216421,521.6316668019311,0.23690300675121181,0.26772036746155614,44,0.959519600000931,core + macro,ridge_optuna
+ridge__combo__building__macro,ridge,combo__building__macro,715.4457898231416,560.6554778217244,0.27206685401514746,0.09214720552159172,44,1.7181288999854587,building + macro,ridge_optuna
+ridge__combo__building__amenities__macro,ridge,combo__building__amenities__macro,715.5129813871991,560.584495182475,0.2721038288554347,0.09197667432414047,57,2.1927279999945313,building + amenities + macro,ridge_optuna
+ridge__combo__amenities__macro,ridge,combo__amenities__macro,787.0326695321677,624.7903066979534,0.29201131871743885,-0.09861997342909046,43,0.35268270000233315,amenities + macro,ridge_optuna
+ridge__combo__macro,ridge,combo__macro,795.2192785367129,629.0551372963812,0.2940100578205236,-0.12159424010779052,30,0.2400539999944158,macro,ridge_optuna
+ridge__combo__building,ridge,combo__building,886.9256751934356,742.7480347680477,0.3091521046616826,-0.39519986185552747,14,0.5926681999990251,building,ridge_optuna
+ridge__combo__building__amenities,ridge,combo__building__amenities,888.8177570513466,744.5515101929333,0.3099000360684552,-0.40115898154908347,27,1.0426061000034679,building + amenities,ridge_optuna
+ridge__combo__amenities,ridge,combo__amenities,1038.4945546153954,862.0048086870843,0.3619166021031013,-0.9128037623319978,13,0.10609439999097958,amenities,ridge_optuna
+xgboost__combo__core__building__amenities,xgboost,combo__core__building__amenities,637.6675869667969,527.6020887711583,0.2334378853727567,0.27880840903140236,41,1.4826592000026722,core + building + amenities,xgboost_optuna
+xgboost__combo__core__building,xgboost,combo__core__building,638.0722009432201,528.1031015603362,0.23343464174763157,0.2778928951134577,28,1.2550505999824964,core + building,xgboost_optuna
+xgboost__combo__core__building__macro,xgboost,combo__core__building__macro,639.2411287071063,529.34455219786,0.2336866264655087,0.2752447176314008,58,1.6943718999973498,core + building + macro,xgboost_optuna
+xgboost__combo__core__building__amenities__macro,xgboost,combo__core__building__amenities__macro,640.615866656556,530.9822643825903,0.2340451880464175,0.27212408002328714,71,1.9215172000112943,core + building + amenities + macro,xgboost_optuna
+xgboost__combo__core__amenities,xgboost,combo__core__amenities,643.163744329267,532.4892741472019,0.23447273525868662,0.26632270398217617,27,0.9175875999790151,core + amenities,xgboost_optuna
+xgboost__combo__core__amenities__macro,xgboost,combo__core__amenities__macro,647.4636637326514,537.1900487373272,0.23549743144709648,0.2564798018022476,57,1.3563648000126705,core + amenities + macro,xgboost_optuna
+xgboost__combo__core,xgboost,combo__core,649.7594173108577,536.9049671763906,0.23603363551641568,0.251197759107751,14,0.6792856999963988,core,xgboost_optuna
+xgboost__combo__core__macro,xgboost,combo__core__macro,651.5302543700329,539.109214018791,0.23651411902032862,0.24711066577877183,44,1.0939858999918215,core + macro,xgboost_optuna
+xgboost__combo__building__amenities__macro,xgboost,combo__building__amenities__macro,672.1149024169832,547.0794808316125,0.24542290341393586,0.19878509515285647,57,1.5949316000042018,building + amenities + macro,xgboost_optuna
+xgboost__combo__building__macro,xgboost,combo__building__macro,672.924028976524,547.2881180385616,0.24591136796296917,0.19685484639306627,44,1.3613765000191052,building + macro,xgboost_optuna
+xgboost__combo__amenities__macro,xgboost,combo__amenities__macro,699.8245438597964,567.7393880552991,0.2538576287298794,0.13135902945460476,43,0.8592381000053138,amenities + macro,xgboost_optuna
+xgboost__combo__macro,xgboost,combo__macro,770.4534622757745,616.3037306788311,0.2740028273836039,-0.05282161422295828,30,0.6440789000189397,macro,xgboost_optuna
+xgboost__combo__building__amenities,xgboost,combo__building__amenities,855.0979700733023,711.5730118753934,0.29834240363837916,-0.29686186864695374,27,1.1734065000200644,building + amenities,xgboost_optuna
+xgboost__combo__building,xgboost,combo__building,860.6529594272173,716.414748749209,0.300194245776411,-0.31376625631596533,14,0.9780242999840993,building,xgboost_optuna
+xgboost__combo__amenities,xgboost,combo__amenities,995.8413764318602,836.8559489306622,0.34887123985470514,-0.7589046776658934,13,0.4995657999825198,amenities,xgboost_optuna
